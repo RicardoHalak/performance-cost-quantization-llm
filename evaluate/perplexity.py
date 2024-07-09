@@ -1,6 +1,5 @@
 #%%
 # PPL script by AWQ paper
-# This is the script I used to generate the PPL results
 
 import torch
 import torch.nn as nn
