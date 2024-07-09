@@ -8,7 +8,7 @@
 
 ## Supervisors
 *Prof. Ricardo Usbeck* <br>
-*Dr. Robert Friedrich*
+*Dr. -Ing. Robert Friedrich*
 
 ## Institution
 *Leuphana Universität Lüneburg*
