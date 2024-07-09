@@ -1,0 +1,382 @@
+{
+    "PPL [-]": {
+      "GPTQ-4": {
+        "Llama2": 7.3,
+        "Mistral": 6.1,
+        "Gemma": 24.4,
+        "OPT": 11.0
+      },
+      "AWQ-4": {
+        "Llama2": 7.1,
+        "Mistral": 6.1,
+        "Gemma": 25.4,
+        "OPT": 10.8
+      },
+      "BNB-4": {
+        "Llama2": 7.4,
+        "Mistral": 6.1,
+        "Gemma": 23.9,
+        "OPT": 11.2
+      },
+      "BNB-8": {
+        "Llama2": 7.0,
+        "Mistral": 6.0,
+        "Gemma": 24.0,
+        "OPT": 10.9
+      },
+      "BF16": {
+        "Llama2": 6.943,
+        "Mistral": 5.948,
+        "Gemma": 24.044,
+        "OPT": 10.855
+      }
+    },
+    "SuperGLUE": {
+      "GPTQ-4": {
+        "Llama2": 0.64,
+        "Mistral": 0.70,
+        "Gemma": 0.67,
+        "OPT": 0.47
+      },
+      "BNB-4": {
+        "Llama2": 0.61,
+        "Mistral": 0.77,
+        "Gemma": 0.71,
+        "OPT": 0.48
+      },
+      "BNB-8": {
+        "Llama2": 0.64,
+        "Mistral": 0.72,
+        "Gemma": 0.62,
+        "OPT": 0.49
+      },
+      "BF16": {
+        "Llama2": 0.64,
+        "Mistral": 0.78,
+        "Gemma": 0.74,
+        "OPT": 0.45
+      }
+    },
+    "SuperGLUE Initial": {
+      "GPTQ-4": {
+        "Llama2": 0.41,
+        "Mistral": 0.47,
+        "Gemma": 0.39,
+        "OPT": 0.41
+      },
+      "BNB-4": {
+        "Llama2": 0.40,
+        "Mistral": 0.39,
+        "Gemma": 0.36,
+        "OPT": 0.41
+      },
+      "BNB-8": {
+        "Llama2": 0.38,
+        "Mistral": 0.44,
+        "Gemma": 0.38,
+        "OPT": 0.41
+      },
+      "BF16": {
+        "Llama2": 0.37,
+        "Mistral": 0.33,
+        "Gemma": 0.37,
+        "OPT": 0.41
+      }
+    },
+    "Model size [bytes]": {
+      "GPTQ-4": {
+        "Llama2": 3864067056,
+        "Mistral": 4123589656,
+        "Gemma": 7142775000,
+        "OPT": 4165844768
+      },
+      "AWQ-4": {
+        "Llama2": 3889391512,
+        "Mistral": 4150880232,
+        "Gemma": 7173076600,
+        "OPT": 4191035272
+      },
+      "BNB-4": {
+        "Llama2": 3897049088,
+        "Mistral": 4551360512,
+        "Gemma": 5985622016,
+        "OPT": 3653271552
+      },
+      "BNB-8": {
+        "Llama2": 7135051776,
+        "Mistral": 8041021440,
+        "Gemma": 9861158912,
+        "OPT": 6874497024
+      },
+      "BF16": {
+        "Llama2": 13476839424,
+        "Mistral": 15020343296,
+        "Gemma": 17075376128,
+        "OPT": 13316947968
+      }
+    },
+    "TTFT - Median [s]": {
+      "GPTQ-4": {
+        "Llama2": 0.048,
+        "Mistral": 0.049,
+        "Gemma": 0.050,
+        "OPT": 0.042
+      },
+      "AWQ-4": {
+        "Llama2": 0.333,
+        "Mistral": 0.375,
+        "Gemma": 0.347,
+        "OPT": 0.260
+      },
+      "BNB-4": {
+        "Llama2": 0.098,
+        "Mistral": 0.107,
+        "Gemma": 0.108,
+        "OPT": 0.086
+      },
+      "BNB-8": {
+        "Llama2": 0.221,
+        "Mistral": 0.413,
+        "Gemma": 0.522,
+        "OPT": 0.190
+      },
+      "BF16": {
+        "Llama2": 0.059,
+        "Mistral": 0.066,
+        "Gemma": 0.065,
+        "OPT": 0.043
+      }
+    },
+    "TTFT - Mean [s]": {
+      "GPTQ-4": {
+        "Llama2": 0.073,
+        "Mistral": 0.057,
+        "Gemma": 0.063,
+        "OPT": 0.048
+      },
+      "AWQ-4": {
+        "Llama2": 0.301,
+        "Mistral": 0.351,
+        "Gemma": 0.326,
+        "OPT": 0.230
+      },
+      "BNB-4": {
+        "Llama2": 0.100,
+        "Mistral": 0.113,
+        "Gemma": 0.116,
+        "OPT": 0.094
+      },
+      "BNB-8": {
+        "Llama2": 0.227,
+        "Mistral": 0.401,
+        "Gemma": 0.494,
+        "OPT": 0.196
+      },
+      "BF16": {
+        "Llama2": 0.063,
+        "Mistral": 0.073,
+        "Gemma": 0.076,
+        "OPT": 0.056
+      }
+    },
+    "TTFT - Std [s]": {
+      "GPTQ-4": {
+        "Llama2": 0.125,
+        "Mistral": 0.023,
+        "Gemma": 0.036,
+        "OPT": 0.034
+      },
+      "AWQ-4": {
+        "Llama2": 0.147,
+        "Mistral": 0.160,
+        "Gemma": 0.151,
+        "OPT": 0.102
+      },
+      "BNB-4": {
+        "Llama2": 0.034,
+        "Mistral": 0.024,
+        "Gemma": 0.033,
+        "OPT": 0.033
+      },
+      "BNB-8": {
+        "Llama2": 0.076,
+        "Mistral": 0.057,
+        "Gemma": 0.090,
+        "OPT": 0.039
+      },
+      "BF16": {
+        "Llama2": 0.042,
+        "Mistral": 0.025,
+        "Gemma": 0.077,
+        "OPT": 0.042
+      }
+    },
+    "Latency - Median [s]": {
+      "GPTQ-4": {
+        "Llama2": 4.423,
+        "Mistral": 4.016,
+        "Gemma": 4.265,
+        "OPT": 2.643
+      },
+      "AWQ-4": {
+        "Llama2": 4.435,
+        "Mistral": 5.185,
+        "Gemma": 5.885,
+        "OPT": 4.303
+      },
+      "BNB-4": {
+        "Llama2": 6.220,
+        "Mistral": 6.103,
+        "Gemma": 5.997,
+        "OPT": 4.028
+      },
+      "BNB-8": {
+        "Llama2": 21.514,
+        "Mistral": 29.111,
+        "Gemma": 29.377,
+        "OPT": 22.857
+      },
+      "BF16": {
+        "Llama2": 4.573,
+        "Mistral": 6.472,
+        "Gemma": 5.563,
+        "OPT": 3.911
+      }
+    },
+    "Latency - Mean [s]": {
+      "GPTQ-4": {
+        "Llama2": 4.434,
+        "Mistral": 4.040,
+        "Gemma": 4.271,
+        "OPT": 2.651
+      },
+      "AWQ-4": {
+        "Llama2": 4.415,
+        "Mistral": 5.170,
+        "Gemma": 5.906,
+        "OPT": 4.304
+      },
+      "BNB-4": {
+        "Llama2": 6.218,
+        "Mistral": 6.112,
+        "Gemma": 6.000,
+        "OPT": 4.026
+      },
+      "BNB-8": {
+        "Llama2": 21.534,
+        "Mistral": 29.150,
+        "Gemma": 29.351,
+        "OPT": 22.894
+      },
+      "BF16": {
+        "Llama2": 4.577,
+        "Mistral": 6.474,
+        "Gemma": 5.565,
+        "OPT": 3.915
+      }
+    },
+    "Latency - Std [s]": {
+      "GPTQ-4": {
+        "Llama2": 0.090,
+        "Mistral": 0.048,
+        "Gemma": 0.026,
+        "OPT": 0.041
+      },
+      "AWQ-4": {
+        "Llama2": 0.184,
+        "Mistral": 0.213,
+        "Gemma": 0.208,
+        "OPT": 0.117
+      },
+      "BNB-4": {
+        "Llama2": 0.054,
+        "Mistral": 0.071,
+        "Gemma": 0.047,
+        "OPT": 0.035
+      },
+      "BNB-8": {
+        "Llama2": 0.423,
+        "Mistral": 0.231,
+        "Gemma": 0.278,
+        "OPT": 0.195
+      },
+      "BF16": {
+        "Llama2": 0.051,
+        "Mistral": 0.032,
+        "Gemma": 0.026,
+        "OPT": 0.032
+      }
+    },
+    "Tokens/s [1/s]": {
+      "GPTQ-4": {
+        "Llama2": 29.40,
+        "Mistral": 32.30,
+        "Gemma": 30.40,
+        "OPT": 48.90
+      },
+      "AWQ-4": {
+        "Llama2": 29.00,
+        "Mistral": 24.80,
+        "Gemma": 21.70,
+        "OPT": 29.70
+      },
+      "BNB-4": {
+        "Llama2": 18.30,
+        "Mistral": 18.10,
+        "Gemma": 16.50,
+        "OPT": 24.70
+      },
+      "BNB-8": {
+        "Llama2": 5.30,
+        "Mistral": 3.80,
+        "Gemma": 3.40,
+        "OPT": 4.30
+      },
+      "BF16": {
+        "Llama2": 24.80,
+        "Mistral": 17.10,
+        "Gemma": 17.80,
+        "OPT": 25.40
+      }
+    },
+    "Training Time [s]": {
+      "GPTQ-4": {
+        "Llama2": 7794.85,
+        "Mistral": 7893.67,
+        "Gemma": 7987.87,
+        "OPT": 6526.43
+      },
+      "BNB-4": {
+        "Llama2": 10346.91,
+        "Mistral": 10830.31,
+        "Gemma": 11535.25,
+        "OPT": 9009.99
+      },
+      "BNB-8": {
+        "Llama2": 9752.14,
+        "Mistral": 15571.1,
+        "Gemma": 16072.82,
+        "OPT": 8137.06
+      },
+      "BF16": {
+        "Llama2": 6140.68,
+        "Mistral": 6231.17,
+        "Gemma": 6239.05,
+        "OPT": 3272.33
+      }
+    },
+    "Quantization Time [s]": {
+      "AWQ-4": {
+        "Llama2": 1253,
+        "Mistral": 1529,
+        "Gemma": 1503,
+        "OPT": 1185
+      },
+      "GPTQ-4": {
+        "Llama2": 2237,
+        "Mistral": 3186,
+        "Gemma": 1733,
+        "OPT": 2196
+      }
+    }
+  }
