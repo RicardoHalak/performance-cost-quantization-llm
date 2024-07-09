@@ -1,3 +1,7 @@
+"""
+Script used to measure the latency of the models
+"""
+
 import torch
 import numpy as np
 from datasets import load_dataset
