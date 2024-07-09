@@ -46,6 +46,3 @@ def latency(model, tokenizer, n_run, n_tokens):
     print(f'Tokens/s: {tokens_per_sec:.1f}')
 
     return time_to_first_token, times, outputs
-#             del out
-#         # import numpy as np
-#         print('Median:', np.median(times))
