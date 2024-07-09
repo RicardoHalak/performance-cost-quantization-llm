@@ -1,5 +1,7 @@
 #%%
-# PPL script by AWQ paper
+""" 
+Script used to measure perplexity
+"""
 
 import torch
 import torch.nn as nn
