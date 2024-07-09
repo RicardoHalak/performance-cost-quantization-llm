@@ -9,7 +9,7 @@ from tqdm import tqdm
 import time
 
 def latency(model, tokenizer, n_run, n_tokens):
-    n_initial_tokens = 4
+    n_initial_tokens = 128
     print('Loading wikitext2...')
     data = load_dataset("wikitext", "wikitext-2-raw-v1", split="test")
     start_sequences = [seq.strip() for seq in data['text'] if seq != "" and len(seq) > 30]
@@ -23,7 +23,7 @@ def latency(model, tokenizer, n_run, n_tokens):
     for seq in tqdm(start_sequences, desc='Sequences: '):
         # encoded_seq = tokenizer(seq, return_tensors="pt")["input_ids"].cuda()
         # encoded_seq = tokenizer(seq, return_tensors="pt")["input_ids"].to(0)
-        encoded_seq = tokenizer(seq, return_tensors="pt").to(0) # GPTQ; also add ** to model.generate()
+        encoded_seq = tokenizer(seq, return_tensors="pt").to(0) # GPTQ; also add ** to model.generate() !
         
         tick = time.time()
         output = model.generate(**encoded_seq, 
