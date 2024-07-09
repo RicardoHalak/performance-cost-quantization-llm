@@ -13,8 +13,8 @@
 ## Institution
 *Leuphana Universität Lüneburg*
 
-## HuggingFace
-huggingface.co/RMHalak
+## Quantized Models
+The quantized models can be found on my [HuggingFace profile](huggingface.co/RMHalak)
 
 ## Contact
 ricardo.halak@gmail.com
