@@ -13,5 +13,8 @@
 ## Institution
 *Leuphana Universität Lüneburg*
 
+## HuggingFace
+huggingface.co/RMHalak
+
 ## Contact
 ricardo.halak@gmail.com
