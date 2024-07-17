@@ -11,7 +11,7 @@
 *Leuphana Universität Lüneburg*
 
 ## Quantized Models
-The quantized models can be found on my [HuggingFace profile](https://huggingface.co/RMHalak)
+The quantized models and adapters can be found on my [HuggingFace profile](https://huggingface.co/RMHalak)
 
 ## Contact
 ricardo.halak@gmail.com
