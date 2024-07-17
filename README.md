@@ -10,7 +10,7 @@
 ## Institution
 *Leuphana Universität Lüneburg*
 
-## Quantized Models
+## Quantized Models & Adapters
 The quantized models and adapters can be found on my [HuggingFace profile](https://huggingface.co/RMHalak)
 
 ## Contact
