@@ -17,8 +17,8 @@ plt.rcParams.update({'font.size': 24})
 plt.rcParams['axes.spines.top'] = False
 plt.rcParams['axes.spines.right'] = False
 
-METRICS_DIR = r'C:\Users\ov-user\Documents\python_projects\masters-thesis\results\results.json'
-SAVE_IMAGES_DIR = r'C:\Users\ov-user\Documents\python_projects\masters-thesis\results\images'
+METRICS_DIR = r'DIR\results.json'
+SAVE_IMAGES_DIR = r'SAVE_DIR'
 FIGSIZE=(12,6)
 # FIGSIZE=(15,6)
 ALPHA=0.8
