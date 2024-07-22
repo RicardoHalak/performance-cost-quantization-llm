@@ -18,8 +18,7 @@ def get_superglue_results(model_name,
                           plot=False):
     MODEL = model_name
     QUANTIZATION = quantization
-    # ADAPTERS_DIR = r'/home/ubuntu/Documents/adapters/sequence_classification'
-    ADAPTERS_DIR = r'C:\Users\ov-user\Documents\python_projects\adapters\sequence_classification'
+    ADAPTERS_DIR = r'DIR\adapters\sequence_classification'
 
     RESULTS_DIR = f'{ADAPTERS_DIR}/{MODEL}/{QUANTIZATION}'
     ROUND_FACTOR = 2
