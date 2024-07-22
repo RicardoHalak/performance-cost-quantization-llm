@@ -15,7 +15,7 @@ plt.rcParams['axes.spines.top'] = False
 plt.rcParams['axes.spines.right'] = False
 
 FIGSIZE=(12,8)
-SAVE_IMAGES_DIR = r'C:\Users\ov-user\Documents\python_projects\masters-thesis\results\images'
+SAVE_IMAGES_DIR = r'SAVE_DIR'
 #%%
 costs_dev = {
     'gpt_35': 6000,
