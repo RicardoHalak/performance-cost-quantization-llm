@@ -1,0 +1,10 @@
+llama2 #1f77b4 > #26890D
+mistral #ff7f0e > #86BC25
+gemma #2ca02c > #0D8390
+opt #d62728 > #79D8FF
+
+
+#9467bd > #0097A9
+#8c564b > #9DD4CF
+#e377c2 > #A7A8AA
+#8C564B > #53565A
